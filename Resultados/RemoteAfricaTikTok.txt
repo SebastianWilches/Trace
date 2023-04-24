@@ -1,0 +1,30 @@
+Africa, Johannesburg
+traceroute to www.tiktok.com (23.52.67.96), 20 hops max, 60 byte packets
+ 1  unassigned.psychz.net (172.107.92.17)  1.219 ms  1.156 ms
+ 2  10.11.21.1 (10.11.21.1)  11.706 ms  11.693 ms
+ 3  akamai.ixp.joburg (196.60.8.212)  15.756 ms  15.744 ms
+ 4  a23-52-67-96.deploy.static.akamaitechnologies.com (23.52.67.96)  0.388 ms  0.374 ms
+
+
+Africa, Cairo
+traceroute to www.tiktok.com (2.23.154.136), 20 hops max, 60 byte packets
+ 1  213.170.143.65 (213.170.143.65)  19.177 ms  19.315 ms
+ 2  host-213.158.180.56.tedata.net (213.158.180.56)  0.405 ms  0.388 ms
+ 3  10.29.6.117 (10.29.6.117)  4.407 ms  4.398 ms
+ 4  et-2-0-19.edge4.Marseille1.Level3.net (212.133.4.209)  61.432 ms  61.416 ms
+ 5  ae1.10.edge1.Milan1.level3.net (4.69.162.221)  108.639 ms  108.630 ms
+ 6  213.242.65.6 (213.242.65.6)  68.501 ms  68.488 ms
+ 7  ae2.r02.mil01.icn.netarch.akamai.com (23.210.57.40)  67.477 ms  67.465 ms
+ 8  ae4.r01.vie01.icn.netarch.akamai.com (95.100.192.105)  73.132 ms  73.123 ms
+ 9  ae1.r01.vie01.ien.netarch.akamai.com (23.210.60.35)  88.427 ms  88.419 ms
+10  ae3.vix-vie3.netarch.akamai.com (23.210.60.131)  100.006 ms  99.999 ms
+11  a2-23-154-136.deploy.static.akamaitechnologies.com (2.23.154.136)  72.338 ms  72.310 ms
+
+
+Africa, Johannesburg
+traceroute to www.tiktok.com (23.52.67.113), 20 hops max, 60 byte packets
+ 1  102.67.165.1 (102.67.165.1)  1.304 ms  1.317 ms
+ 2  * *
+ 3  * *
+ 4  * *
+ 5  a23-52-67-113.deploy.static.akamaitechnologies.com (23.52.67.113)  0.173

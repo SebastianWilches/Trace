@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traza de rutas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>LABORATORIO TRAZA DE RUTAS LOCALES Y REMOTAS</h1>
+    </nav>
+
+    <article class="contenedor">
+        <!-- <section class="mapa">
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-141.66395226985588%2C-58.79416840957209%2C-7.015514769855855%2C31.235721319552432&amp;layer=mapnik"
+                style="border: 0px solid black"></iframe><br /><small><a
+                    href="https://www.openstreetmap.org/#map=3/-19.69/-74.34">Ver mapa más grande</a></small>
+        </section> -->
+
+        <section class="mapa" id="map">
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-141.66395226985588%2C-58.79416840957209%2C-7.015514769855855%2C31.235721319552432&amp;layer=mapnik"
+                style="border: 0px solid black"></iframe><br /><small><a
+                    href="https://www.openstreetmap.org/#map=3/-19.69/-74.34">Ver mapa más grande</a></small>
+        </section>
+        <section class="trazaContainer">
+            <div>
+                <h2>Parámetros</h2>
+                <div class="inputContainer">
+                    <p>Continente:</p>
+                    <select name="continente" id="continente">
+                        <optgroup label="Continente">
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="inputContainer">
+                    <p>Servidor de origen:</p>
+                    <select name="serverOrigen" id="serverOrigen">
+                        <option value="test"> </option>
+                    </select>
+                </div>
+
+                <div class="inputContainer">
+                    <p>Servidor de destino:</p>
+                    <select name="serverDestino" id="serverDestino">
+                        <option value="test"> </option>
+                    </select>
+                </div>
+                <button id="buttonGraficar">Graficar</button>
+            </div>
+            <div>
+                <h2>Información traza de rutas</h2>
+                <table>
+                    <tr class="encabezado">
+                        <th colspan="2">Ciudad</th>
+                    </tr>
+                    <tr>
+                        <td>Dirección inicial</td>
+                        <td id="infoDireccionInicial">X</td>
+                    </tr>
+                    <tr>
+                        <td>Número de saltos</td>
+                        <td id="infoHops">X</td>
+                    </tr>
+                    <tr>
+                        <td>Dirección IP</td>
+                        <td id="infoDireccionIp">X</td>
+                    </tr>
+                    <tr>
+                        <td>Tiempo promedio de respuesta (MS)</td>
+                        <td id="infoPromedioRespuesta">X</td>
+                    </tr>
+                    <tr>
+                        <td>Dirección final</td>
+                        <td id="infoDireccionFinal">X</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        <p>Jhoan Sebastian Wilches Jimenez - 20181020175</p>
+        <p>Daniel Camilo Carreño Merino - 20181020148</p>
+        <br>
+        <p>Redes de comunicaciones 2</p>
+        <p>Paulo Alonso Gaona García</p>
+    </footer>
+
+</body>
+
+
+<script src="index.js"></script>
+
+</html>

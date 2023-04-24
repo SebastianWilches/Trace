@@ -1,0 +1,37 @@
+AFRICA
+Africa, Cairo
+traceroute to www.wikipedia.org (208.80.154.224), 20 hops max, 60 byte packets
+ 1  213.170.143.65 (213.170.143.65)  1.029 ms  0.975 ms
+ 2  host-213.158.180.56.tedata.net (213.158.180.56)  0.589 ms  0.567 ms
+ 3  10.29.6.109 (10.29.6.109)  3.831 ms  3.817 ms
+ 4  et-4-0-22.edge4.Marseille1.Level3.net (212.133.4.229)  61.905 ms  61.894 ms
+ 5  * *
+ 6  WIKIMEDIA-F.bear2.Washington111.Level3.net (4.16.71.246)  135.074 ms  135.053 ms
+ 7  text-lb.eqiad.wikimedia.org (208.80.154.224)  133.921 ms *
+
+
+Africa, Johannesburg
+traceroute to www.wikipedia.org (185.15.58.224), 20 hops max, 60 byte packets
+ 1  102.67.165.1 (102.67.165.1)  1.200 ms  1.208 ms
+ 2  * *
+ 3  * *
+ 4  cr1-isd-et49-1.wolcomm.net (41.78.188.208)  157.290 ms  157.435 ms
+ 5  cr1-amx-et41.wolcomm.net (41.78.188.133)  157.076 ms  157.091 ms
+ 6  wikimedia.mrs.franceix.net (37.49.232.11)  156.879 ms  156.910 ms
+ 7  et-0-0-50.asw1-b12-drmrs.wikimedia.org (185.15.58.141)  160.233 ms  160.242 ms
+ 8  text-lb.drmrs.wikimedia.org (185.15.58.224)  156.859 ms  156.855 ms
+
+
+Africa, Johannesburg
+Straceroute to www.wikipedia.org (185.15.58.224), 20 hops max, 60 byte packets
+ 1  unassigned.psychz.net (172.107.92.17)  1.018 ms  1.159 ms
+ 2  10.11.21.1 (10.11.21.1)  0.337 ms  0.322 ms
+ 3  206.249.1.17 (206.249.1.17)  0.528 ms  0.573 ms
+ 4  be2385.ccr21.lon01.atlas.cogentco.com (154.54.40.93)  168.013 ms  168.174 ms
+ 5  ldn-b3-link.ip.twelve99.net (62.115.9.28)  187.159 ms  187.151 ms
+ 6  * *
+ 7  * *
+ 8  mei-b5-link.ip.twelve99.net (62.115.124.57)  204.619 ms  204.607 ms
+ 9  wikimedia-svc080517-ic370330.ip.twelve99-cust.net (62.115.147.133)  184.957 ms  184.945 ms
+10  et-0-0-48.asw1-b12-drmrs.wikimedia.org (185.15.58.143)  188.187 ms  188.176 ms
+11  text-lb.drmrs.wikimedia.org (185.15.58.224)  184.663 ms  184.640 ms
