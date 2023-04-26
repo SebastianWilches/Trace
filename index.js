@@ -23,7 +23,7 @@ let longitudes = [];
 const pingServers = {
     'Local': {
         'Bogotá': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '2620:0:861:ed1a::1',
                 breaks: [
                     '2800:e2:5a80:1629:8e61:a3ff:fe6b:211a',
@@ -75,7 +75,7 @@ const pingServers = {
     },
     'Norte América': {
         'New York': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '208.80.154.224',
                 breaks: [
                     '72.9.99.137',
@@ -125,7 +125,7 @@ const pingServers = {
             },
         },
         'Los angeles': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '198.35.26.96',
                 breaks: [
                     '98.143.158.201',
@@ -167,7 +167,7 @@ const pingServers = {
     },
     'Centro América': {
         'Guadalajara': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '208.80.153.224',
                 breaks: [
                     '143.255.58.129',
@@ -211,7 +211,7 @@ const pingServers = {
     },
     'Sur América': {
         'Buenos Aires': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '208.80.154.224',
                 breaks: [
                     '168.205.95.1',
@@ -255,7 +255,7 @@ const pingServers = {
             },
         },
         'Sao Paulo': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '208.80.154.224',
                 breaks: [
                     '185.50.105.195',
@@ -291,7 +291,7 @@ const pingServers = {
     },
     'Europa': {
         'Paris': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '185.15.58.224',
                 breaks: [
                     '195.154.28.1',
@@ -334,7 +334,7 @@ const pingServers = {
             },
         },
         'Amsterdam': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '91.198.174.192',
                 breaks: [
                     '5.79.88.28',
@@ -375,7 +375,7 @@ const pingServers = {
     },
     'Oceania': {
         'Sydney': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '103.102.166.224',
                 breaks: [
                     '221.121.154.216',
@@ -427,7 +427,7 @@ const pingServers = {
             },
         },
         'Adelaide': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '103.102.166.224',
                 breaks: [
                     '103.216.222.15',
@@ -464,7 +464,7 @@ const pingServers = {
     },
     'Africa': {
         'El Cairo': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '208.80.154.224',
                 breaks: [
                     '213.170.143.65',
@@ -508,7 +508,7 @@ const pingServers = {
             },
         },
         'Johannesburg': {
-            'www.wikipedia.com': {
+            'www.wikipedia.org': {
                 IPAddress: '185.15.58.224',
                 breaks: [
                     '172.107.92.17',
